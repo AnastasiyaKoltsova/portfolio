@@ -1,0 +1,19 @@
+body {
+    box-sizing: border-box;
+    background-color: #ececec;
+}
+
+.wrapper {
+    padding: 0 10%;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 5%;
+}
